@@ -1042,7 +1042,7 @@ Click the buttons below to join both channels, then press VERIFY ✅"""
                 start(call.message)
                 return
             
-            msg_text = "🛠️ Support: @ROCKY_P4PA"
+            msg_text = "🛠️ Support: @JATINYADAV001"
             markup = InlineKeyboardMarkup()
             markup.add(InlineKeyboardButton("⬅️ Back", callback_data="back_to_menu"))
             
@@ -2615,7 +2615,7 @@ def process_recharge_amount(msg):
         caption = f"""<blockquote>💳 <b>UPI Payment Details</b> 
 
 💰 Amount: {format_currency(amount)}
-📱 UPI ID: Chandaliya@fam
+📱 UPI ID: jatinyadv001@ptyes
 
 📋 Instructions:
 1. Scan QR code OR send {format_currency(amount)} to above UPI
@@ -2634,7 +2634,7 @@ def process_recharge_amount(msg):
         
         bot.send_photo(
             msg.chat.id,
-            "https://files.catbox.moe/q8l080.jpg",
+            "https://ibb.co/5h87whxj",
             caption=caption,
             parse_mode="HTML",
             reply_markup=markup
