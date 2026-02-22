@@ -43,17 +43,17 @@ from pyrogram.errors import (
 # CONFIG
 # ---------------------------------------------------------------------
 
-BOT_TOKEN = os.getenv('BOT_TOKEN', '7750601177:AAHkRoz0k66s_G45hkGpvtAIQ340kBv2tCE')
-ADMIN_ID = int(os.getenv('ADMIN_ID', '8386507312'))
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8550157035:AAFts4CXrSUe-zESbDQ8ZkF8GIAFGvlD--s')
+ADMIN_ID = int(os.getenv('ADMIN_ID', '6348213834'))
 MONGO_URL = os.getenv('MONGO_URL', 'mongodb+srv://newoner390_db_user:newoner390_db_user@cluster0.ia8492q.mongodb.net/?appName=Cluster0')
 API_ID = int(os.getenv('API_ID', '30038466'))
 API_HASH = os.getenv('API_HASH', '5a492a0dfb22b1a0b7caacbf90cbf96e')
 
 # MUST JOIN CHANNELS - TWO CHANNELS
-MUST_JOIN_CHANNEL_1 = "@USATGLOGS"
-MUST_JOIN_CHANNEL_2 = "@USA_SUPPORT_CH"
+MUST_JOIN_CHANNEL_1 = "@dada_store_sms"
+MUST_JOIN_CHANNEL_2 = "@DADA_OTP_CHENNAL"
 # LOG CHANNEL
-LOG_CHANNEL_ID = "-1003887741767"
+LOG_CHANNEL_ID = "-1003456141509"
 
 # Referral commission percentage
 REFERRAL_COMMISSION = 1.5
@@ -1042,7 +1042,7 @@ Click the buttons below to join both channels, then press VERIFY ✅"""
                 start(call.message)
                 return
             
-            msg_text = "🛠️ Support: @JATINYADV001"
+            msg_text = "🛠️ Support: @DADA_OTP_SUPPROT"
             markup = InlineKeyboardMarkup()
             markup.add(InlineKeyboardButton("⬅️ Back", callback_data="back_to_menu"))
             
@@ -2615,7 +2615,7 @@ def process_recharge_amount(msg):
         caption = f"""<blockquote>💳 <b>UPI Payment Details</b> 
 
 💰 Amount: {format_currency(amount)}
-📱 UPI ID: jatinyadv001@ptyes
+📱 UPI ID: shubhamarya55555@fam
 
 📋 Instructions:
 1. Scan QR code OR send {format_currency(amount)} to above UPI
@@ -2634,7 +2634,7 @@ def process_recharge_amount(msg):
         
         bot.send_photo(
             msg.chat.id,
-            "https://ibb.co/5h87whxj",
+            "https://ibb.co/1fqyTVgc,
             caption=caption,
             parse_mode="HTML",
             reply_markup=markup
