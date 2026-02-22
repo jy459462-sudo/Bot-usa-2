@@ -2634,7 +2634,7 @@ def process_recharge_amount(msg):
         
         bot.send_photo(
             msg.chat.id,
-            "https://ibb.co/1fqyTVgc,"
+            "https://ibb.co/1fqyTVgc",
             caption=caption,
             parse_mode="HTML",
             reply_markup=markup
